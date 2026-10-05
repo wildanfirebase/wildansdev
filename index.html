@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#050816">
+    <meta name="color-scheme" content="dark">
+    
+    <!-- Primary SEO -->
+    <title>Mohammad Wildan Safriansyah | RPL Student & Developer</title>
+    <meta name="description" content="Personal portfolio of Mohammad Wildan Safriansyah, a 16-year-old RPL student from Indramayu interested in programming, design, UI/UX, multimedia and digital technology.">
+    <meta name="author" content="Mohammad Wildan Safriansyah">
+    <meta name="keywords" content="Mohammad Wildan, Wildan Safriansyah, RPL Student, Web Developer, Portfolio, SMK Pesantren Ciwaringin, Indramayu, Creative Technologist">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://wildan.example.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mohammad Wildan Safriansyah | RPL Student & Developer">
+    <meta property="og:description" content="16-year-old RPL student building digital experiences through code and creativity.">
+    <meta property="og:url" content="https://wildan.example.com/">
+    <meta property="og:site_name" content="Mohammad Wildan Safriansyah">
+    <meta property="og:locale" content="id_ID">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mohammad Wildan Safriansyah | RPL Student & Developer">
+    <meta name="twitter:description" content="16-year-old RPL student building digital experiences through code and creativity.">
+
+    <!-- Favicon (inline SVG) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%238B5CF6'/><text x='50' y='68' font-size='54' font-family='Arial,sans-serif' font-weight='bold' text-anchor='middle' fill='white'>MW</text></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohammad Wildan Safriansyah",
+        "alternateName": "Wildan",
+        "jobTitle": "RPL Student",
+        "description": "16-year-old RPL student interested in programming, design, UI/UX, multimedia and digital technology.",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Indramayu",
+            "addressRegion": "Jawa Barat",
+            "addressCountry": "ID"
+        },
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "SMK Pesantren Ciwaringin"
+        },
+        "knowsAbout": [
+            "Programming", "Web Development", "Software Development",
+            "Graphic Design", "UI/UX Design", "Photography",
+            "Multimedia", "Digital Business", "Cyber Security"
+        ]
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Skip to content (a11y) -->
+    <a href="#home" class="skip-link">Skip to content</a>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursor-ring" aria-hidden="true">
+        <span class="cursor-label" id="cursor-label"></span>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="Home - MW">MW</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu" aria-label="Main navigation">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary nav-btn">Let's Connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- ============================ HERO ============================ -->
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-container">
+
+                <div class="hero-content">
+                    <div class="badge reveal">RPL STUDENT • CREATIVE TECHNOLOGIST</div>
+
+                    <h1 id="hero-title" class="headline reveal">
+                        Hi, I'm <span class="text-gradient">Mohammad Wildan.</span>
+                    </h1>
+
+                    <h2 class="sub-headline reveal">
+                        Building Digital Experiences Through Code &amp; Creativity.
+                    </h2>
+
+                    <div class="typing-container reveal" aria-live="polite">
+                        <span id="typing-text"></span><span class="cursor" aria-hidden="true">|</span>
+                    </div>
+
+                    <p class="description reveal">
+                        I'm a 16-year-old RPL student interested in programming, design, multimedia, and digital technology.
+                    </p>
+
+                    <div class="hero-buttons reveal">
+                        <a href="#projects" class="btn btn-primary" data-cursor="hover">View Projects</a>
+                        <a href="#contact" class="btn btn-outline" data-cursor="hover">Let's Connect</a>
+                    </div>
+                </div>
+
+                <div class="hero-image reveal">
+                    <div class="glow-circle" aria-hidden="true"></div>
+
+                    <div class="profile-wrapper">
+    <img src="img/profile.webp" alt="Foto Mohammad Wildan Safriansyah" class="profile-img" loading="eager" width="360" height="360">
+</div>
+                    <div class="floating-card" aria-hidden="true">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <pre><code>const wildan = {
+  role: "RPL Student",
+  focus: [
+    "Programming",
+    "UI/UX",
+    "Design"
+  ]
+};</code></pre>
+                    </div>
+
+                    <div class="decorative-grid" aria-hidden="true"></div>
+                </div>
+
+            </div>
+
+            <div class="particles" id="particles" aria-hidden="true"></div>
+        </section>
+
+        <!-- ============================ ABOUT ============================ -->
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="about-container">
+
+                <div class="section-header reveal">
+                    <span class="section-label">ABOUT ME</span>
+                    <h2 id="about-title" class="section-title">Technology meets <span class="text-gradient">creativity.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-content reveal">
+                        <p class="about-text">
+                            Saya adalah siswa <strong>SMK Pesantren Ciwaringin</strong> jurusan
+                            <strong>Rekayasa Perangkat Lunak (RPL)</strong> yang memiliki ketertarikan
+                            pada teknologi, programming, desain, multimedia, dan pengembangan digital.
+                        </p>
+                        <p class="about-text">
+                            Saya percaya bahwa kode yang baik bukan hanya soal logika, tetapi juga
+                            bagaimana ia menyampaikan ide dan menciptakan pengalaman yang bermakna
+                            bagi penggunanya.
+                        </p>
+
+                        <a href="#contact" class="btn btn-outline about-btn" data-cursor="hover">
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="margin-left: 8px;">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="about-cards">
+                        <div class="info-card reveal tilt">
+                            <div class="info-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h3><span class="counter" data-target="16">0</span>+</h3>
+                                <p>Years Old</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card reveal tilt">
+                            <div class="info-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h3>RPL</h3>
+                                <p>Student</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card reveal tilt">
+                            <div class="info-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h3>Indramayu</h3>
+                                <p>Jawa Barat</p>
+                            </div>
+                        </div>
+
+                        <div class="info-card reveal tilt">
+                            <div class="info-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                </svg>
+                            </div>
+                            <div class="info-text">
+                                <h3>Learning</h3>
+                                <p>Everyday</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ SKILLS ============================ -->
+        <section id="skills" class="skills" aria-labelledby="skills-title">
+            <div class="skills-container">
+
+                <div class="section-header reveal">
+                    <span class="section-label">MY SKILLS</span>
+                    <h2 id="skills-title" class="section-title">Skills &amp; <span class="text-gradient">Tools.</span></h2>
+                    <p class="section-subtitle">Tools and abilities I use to bring ideas to life.</p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <div class="skill-card reveal tilt">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3>Technology</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Programming</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Web Development</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Software Development</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Website Management</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Basic Cyber Security</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card reveal tilt">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                                    <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                                    <path d="M2 2l7.586 7.586"></path>
+                                    <circle cx="11" cy="11" r="2"></circle>
+                                </svg>
+                            </div>
+                            <h3>Design &amp; Multimedia</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Graphic Design</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>UI/UX Design</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Photography</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Photo Editing</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Multimedia</li>
+                        </ul>
+                    </div>
+
+                    <div class="skill-card reveal tilt">
+                        <div class="skill-card-header">
+                            <div class="skill-card-icon" aria-hidden="true">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" y1="20" x2="18" y2="10"></line>
+                                    <line x1="12" y1="20" x2="12" y2="4"></line>
+                                    <line x1="6" y1="20" x2="6" y2="14"></line>
+                                </svg>
+                            </div>
+                            <h3>Digital</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Manajemen Bisnis Digital</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Content Management</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Content Analysis</li>
+                            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>Social Media Management</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ PROJECTS ============================ -->
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="projects-container">
+
+                <div class="section-header reveal">
+                    <span class="section-label">FEATURED PROJECTS</span>
+                    <h2 id="projects-title" class="section-title">Some of My <span class="text-gradient">Recent Work.</span></h2>
+                    <p class="section-subtitle">A selection of projects I've been working on or exploring.</p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal tilt" data-cursor="view">
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><span>01</span></div>
+                            <span class="project-status concept">Concept</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>CitraTani App</h3>
+                            <div class="project-tags">
+                                <span>UI/UX Design</span>
+                                <span>Application Concept</span>
+                            </div>
+                            <span class="project-link">
+                                View Project
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal tilt" data-cursor="view">
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><span>02</span></div>
+                            <span class="project-status progress">In Progress</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Pesantren Website</h3>
+                            <div class="project-tags">
+                                <span>Web Development</span>
+                                <span>Website Management</span>
+                            </div>
+                            <span class="project-link">
+                                View Project
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal tilt" data-cursor="view">
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><span>03</span></div>
+                            <span class="project-status completed">Completed</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>Multimedia Project</h3>
+                            <div class="project-tags">
+                                <span>Photography</span>
+                                <span>Graphic Design</span>
+                            </div>
+                            <span class="project-link">
+                                View Project
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal tilt" data-cursor="view">
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><span>04</span></div>
+                            <span class="project-status concept">Concept</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>UMKM Digital</h3>
+                            <div class="project-tags">
+                                <span>Digital Business</span>
+                                <span>Design</span>
+                            </div>
+                            <span class="project-link">
+                                View Project
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal tilt" data-cursor="view">
+                        <div class="project-image">
+                            <div class="project-image-placeholder"><span>05</span></div>
+                            <span class="project-status progress">In Progress</span>
+                        </div>
+                        <div class="project-body">
+                            <h3>RPL Project</h3>
+                            <div class="project-tags">
+                                <span>Programming</span>
+                                <span>Web Development</span>
+                            </div>
+                            <span class="project-link">
+                                View Project
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                </svg>
+                            </span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ EXPERIENCE ============================ -->
+        <section id="experience" class="experience" aria-labelledby="experience-title">
+            <div class="experience-container">
+
+                <div class="section-header reveal">
+                    <span class="section-label">EXPERIENCE</span>
+                    <h2 id="experience-title" class="section-title">Where I've <span class="text-gradient">Contributed.</span></h2>
+                    <p class="section-subtitle">Organizations and roles I've been part of.</p>
+                </div>
+
+                <div class="timeline">
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+                        <div class="timeline-content">
+                            <h3>Social Media Graphic Designer</h3>
+                            <p>Merancang dan mengelola konten visual untuk kebutuhan media sosial.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+                        <div class="timeline-content">
+                            <h3>UI/UX Graphic Designer</h3>
+                            <p>Merancang antarmuka dan pengalaman pengguna untuk produk digital.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+                        <div class="timeline-content">
+                            <h3>Tim Multimedia Pesantren</h3>
+                            <p>Membuat dan mengelola konten visual serta media digital pesantren.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+                        <div class="timeline-content">
+                            <h3>Website Management Pesantren</h3>
+                            <p>Mengelola pembaruan konten dan pemeliharaan website resmi pesantren.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal">
+                        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+                        <div class="timeline-content">
+                            <h3>Tim IT Pesantren</h3>
+                            <p>Mendukung kebutuhan teknologi informasi di lingkungan pesantren.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================ CONTACT ============================ -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="contact-container">
+
+                <div class="contact-box reveal">
+                    <span class="section-label">LET'S WORK TOGETHER</span>
+                    <h2 id="contact-title" class="contact-title">Let's Build Something <span class="text-gradient">Meaningful.</span></h2>
+                    <p class="contact-description">
+                        Have an idea, project, or opportunity?
+                        Let's connect and create something together.
+                    </p>
+
+                    <a href="mailto:YOUR_EMAIL" class="btn btn-primary contact-btn" data-cursor="hover">Get In Touch</a>
+
+                    <div class="contact-links">
+                        <a href="https://wa.me/YOUR_WHATSAPP" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="WhatsApp" data-cursor="hover">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="Instagram" data-cursor="hover">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub" data-cursor="hover">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="mailto:YOUR_EMAIL" class="contact-link" aria-label="Email" data-cursor="hover">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <span>Email</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================ FOOTER ============================ -->
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>Mohammad Wildan Safriansyah</h3>
+                    <p>Code. Create. Learn. Contribute.</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://wa.me/YOUR_WHATSAPP" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-cursor="hover">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/YOUR_INSTAGRAM" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-cursor="hover">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noopener noreferrer" aria-label="GitHub" data-cursor="hover">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
+                    </a>
+                    <a href="mailto:YOUR_EMAIL" aria-label="Email" data-cursor="hover">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Mohammad Wildan Safriansyah. All rights reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top" data-cursor="hover">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </button>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
